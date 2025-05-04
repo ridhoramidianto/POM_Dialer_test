@@ -20,8 +20,9 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Start Appium (background)
-        run: start /B appium --base-path /wd/hub
+      - name: Start Appium
+        shell: cmd
+        run: start "" /B appium --base-path /wd/hub
 
       - name: Run tests
         run: pytest --html=report.html --self-contained-html
