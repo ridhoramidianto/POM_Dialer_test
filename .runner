@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 2,
+  "agentName": "ridho-runner",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus12.actions.githubusercontent.com/H4iRTQUMO239CWJMAyBHAEMba2binhbTFUwqDxDIyQcL5ehSj3/",
+  "gitHubUrl": "https://github.com/ridhoramidianto/POM_Dialer_test",
+  "workFolder": "_work"
+}
